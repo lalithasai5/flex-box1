@@ -1,0 +1,58 @@
+.maindiv{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px;
+    display: flex;
+}
+.item{
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 2px solid deeppink;
+}
+#div1{
+    flex-direction: row;
+    flex-wrap: warp;
+    justify-content: end;
+    align-items: end;
+}
+#div2{
+    flex-flow: column-reverse wrap-reverse;
+    justify-content: start;
+    align-items: start;
+}
+#div3{
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+#div4{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
+#div5{
+    flex-wrap: nowrap;
+}
+#j1{
+    flex-flow: column wrap;
+    justify-content: end;
+    align-items: end;
+}
+#j2{
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+#j3{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+}
